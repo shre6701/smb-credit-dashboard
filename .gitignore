@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Environment
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# OS-specific
+Thumbs.db
+desktop.ini
+
+# Data
+data/*.csv
+data/*.xlsx
+!data/sample_tally_data.csv
+
+# Exported Reports
+*.csv
+*.html
+*.pdf
