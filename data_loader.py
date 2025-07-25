@@ -8,7 +8,6 @@ def load_data(path):
             df = pd.read_csv(path)
         else:
             df = pd.read_excel(path)
-
         df['Invoice Date'] = pd.to_datetime(df['Invoice Date'], errors='coerce')
         df['Due Date'] = pd.to_datetime(df['Due Date'], errors='coerce')
         return df.dropna(subset=['Invoice Date', 'Due Date'])
