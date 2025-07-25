@@ -1,4 +1,4 @@
-# 🧾 SMB Credit Risk Dashboard
+# SMB Credit Risk Dashboard
 
 A FinTech tool to help small and mid-sized businesses (SMBs) manage and assess credit risk using real-time accounting data from Tally.
 
